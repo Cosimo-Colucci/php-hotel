@@ -55,6 +55,9 @@
                 <h1>
                     <?php echo $hotel['name'];?>
                 </h1>
+                <h2>
+                <?php echo $hotel['description'];?>
+                </h2>
            </div> 
         <?php } ?>
     </body>
