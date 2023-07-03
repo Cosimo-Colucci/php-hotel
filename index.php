@@ -56,8 +56,17 @@
                     <?php echo $hotel['name'];?>
                 </h1>
                 <h2>
-                <?php echo $hotel['description'];?>
+                    <?php echo $hotel['description'];?>
                 </h2>
+                <span>
+                    <?php echo $hotel['parking'];?>
+                </span>
+                <span>
+                    <?php echo $hotel['vote'];?>
+                </span>
+                <span>
+                    <?php echo $hotel['distance_to_center'];?>
+                </span>
            </div> 
         <?php } ?>
     </body>
