@@ -51,9 +51,13 @@
     </head>
     <body>
          <?php foreach ($hotels as $hotel) { ?>
-            <pre>
-                <?php var_dump($hotel);?>
-            </pre>            
+           <div>
+                <h1>
+                    <?php echo $hotel['name'];?>
+                </h1>
+           </div> 
         <?php } ?>
     </body>
 </html>
+
+                
